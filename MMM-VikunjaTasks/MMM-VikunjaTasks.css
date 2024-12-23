@@ -1,0 +1,82 @@
+.task-card {
+    border: 1px solid #66666688;
+    margin: 5px 0;
+    border-radius: 10px;
+    background-color: #66666688;
+    font-size: 0.75em;
+    text-align: left;
+}
+
+.task-title {
+    font-size: 1.25em;
+    color:#fff;
+}
+
+.labels {
+    margin: 5px 0;
+}
+
+.task-due {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.label {
+    display: inline-block;
+    margin: 0px 2px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.task-checkbox {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.vikunjatasks-title {
+    font-size: 1.3em;
+    color:#fff;
+}
+
+/* Constrain the module's height and make it scrollable */
+.scrollable-container {
+    /* scroll-behavior: smooth; */
+    max-height: 40vh; /* Maximum height: 30% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    position: relative; /* Required for the mask to apply correctly */
+
+    /* Apply a gradient mask */
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0));
+    -webkit-mask-size: 100% 100%; /* Ensure the mask covers the entire element */
+    -webkit-mask-repeat: no-repeat;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0)); /* For non-WebKit browsers */
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+/* Optional: Styling the scrollbar for better aesthetics */
+.scrollable-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar color */
+    border-radius: 3px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scrollbar hover color */
+}
+
+.task-separator {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 10px 0;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-align: left;
+}

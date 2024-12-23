@@ -1,0 +1,42 @@
+/* Styles for the Day At A Glance module */
+.day-at-a-glance {
+    color: #ffffff;
+    padding: 0px;
+  }
+  
+  .event-card {
+    border: 1px solid #66666688;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #66666688;
+    font-size: 0.75em;
+    text-align: left;
+  }
+  
+  .event-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #ffffff;
+  }
+  
+  .event-time {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #cccccc;
+  }
+  
+  .event-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .label {
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+  }  
